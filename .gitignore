@@ -2,4 +2,3 @@ data/
 *.csv
 .ipynb_checkpoints/
 .vscode/
-external_data/
