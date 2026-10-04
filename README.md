@@ -42,7 +42,7 @@ Tested with Python 3.12.6. No trained model is included because the forecast use
 
 ## Data
 
-The four CRM CSV files in `data/` are confidential and are not committed. Historical CMHC reports under`external_data/` have also not been committed. These files must be suppplied locally.
+The four CRM CSV files in `data/` are confidential and are not committed. These files must be suppplied locally.
 
 ## Ontario note
 
