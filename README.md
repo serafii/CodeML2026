@@ -25,6 +25,7 @@ The method is intentionally simple so it can be checked and explained easily.
 ## Files
 
 - `rent_forecasting.ipynb`: main analysis and forecast
+- `Collection_Equinoxe_2026_Forecast.pptx`: jury presentation
 - `starter.ipynb`: official challenge starter notebook
 - `external_data/`: public CMHC Montreal and Ottawa workbooks
 - `data/`: local challenge data
@@ -34,14 +35,16 @@ The method is intentionally simple so it can be checked and explained easily.
 Install the required packages:
 
 ```bash
-pip install pandas numpy matplotlib openpyxl jupyter
+pip install pandas==3.0.6 numpy==2.5.3 matplotlib==3.11.2 openpyxl==3.1.5 jupyter
 ```
 
 Then open `rent_forecasting.ipynb` and run all cells in order.
 
-## Data privacy
+Tested with Python 3.12.6. No trained model is included because the forecast uses a simple three-year trailing mean.
 
-The four CRM CSV files in `data/` are confidential. Do not upload, commit, or include them in the submission ZIP. Clear any raw row previews from the notebook before submission. Only aggregate results should be shared.
+## Data
+
+The four CRM CSV files in `data/` are confidential and are not committed. Historical CMHC reports under`externall_data/` have also not been committed.
 
 ## Ontario note
 
