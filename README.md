@@ -25,8 +25,6 @@ The method is intentionally simple so it can be checked and explained easily.
 ## Files
 
 - `rent_forecasting.ipynb`: main analysis and forecast
-- `Collection_Equinoxe_2026_Forecast.pptx`: jury presentation
-- `starter.ipynb`: official challenge starter notebook
 - `external_data/`: public CMHC Montreal and Ottawa workbooks
 - `data/`: local challenge data
 
@@ -44,7 +42,7 @@ Tested with Python 3.12.6. No trained model is included because the forecast use
 
 ## Data
 
-The four CRM CSV files in `data/` are confidential and are not committed. Historical CMHC reports under`externall_data/` have also not been committed.
+The four CRM CSV files in `data/` are confidential and are not committed. Historical CMHC reports under`external_data/` have also not been committed. These files must be suppplied locally.
 
 ## Ontario note
 
